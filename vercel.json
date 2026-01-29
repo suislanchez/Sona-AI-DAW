@@ -1,5 +1,4 @@
 {
-  "buildCommand": "PATH=$PATH:./node_modules/.bin turbo run build --filter=@opendaw/app-headless",
   "outputDirectory": "packages/app/headless/dist",
   "installCommand": "npm ci",
   "framework": null,

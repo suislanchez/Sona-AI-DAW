@@ -7,6 +7,7 @@
     "cert": "bash ./scripts/cert.sh",
     "clean": "bash ./scripts/clean.sh",
     "build": "turbo build",
+    "vercel-build": "export PATH=$PATH:$PWD/node_modules/.bin && turbo run build --filter=@opendaw/app-headless",
     "dev:studio": "turbo run dev --filter=@opendaw/app-studio",
     "dev:headless": "turbo run dev --filter=@opendaw/app-headless",
     "test": "turbo run test --concurrency=1",
